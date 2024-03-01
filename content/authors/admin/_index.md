@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Yanlin Zhang (张颜麟)
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# # Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Yanlin
+last_name: Zhang
 
 # Status emoji
 status:
@@ -17,34 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: University of Illinois, Urbana-Champaign
+    url: https://illinois.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests lies in the intersection of behavioral science and mixed autonomy traffic flow.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Behavioral Science in Mixed Autonomy Traffic
+  - Automated Transportation System Testing
+  - Traffic Flow Theory
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Ph.D. in Transportation Engineering / Computational Science and Engineering
+      institution: University of Illinois, Urbana-Champaign
+      year: Expected 2025
+    - course: M.Sc. in Transportation System Analysis and Planning
+      institution: Northwestern University
+      year: 2021
+    - course: B.Eng. in Traffic Engineering (Highest Honors)
+      institution: Tongji University
+      year: 2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -102,13 +102,13 @@ social:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://scholar.google.com/citations?user=qhO_nfcAAAAJ&hl=en&oi=sra
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/gcushen
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/yanlin-zhang-489295155/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +120,4 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Yanlin's research focuses on modeling driving behaviors across various levels of autonomy (SAE L0 to L4) using real-world data captured from aerial videos. This involves characterizing interactions between human drivers and connected automated vehicles (CAVs) to identify and evaluate changes in human driving behavior. The goal is to enhance automated driving models and traffic management strategies, ultimately improving system-level safety and efficiency.{style="text-align: justify;"}
