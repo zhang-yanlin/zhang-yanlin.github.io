@@ -122,6 +122,5 @@ highlight_name: true
 
 Yanlin's research focuses on modeling driving behaviors across various levels of autonomy (SAE L0 to L4) using sythetic and real-world data. This involves characterizing interactions between human drivers and connected automated vehicles (CAVs) to identify and evaluate changes in driving behavior. The goal is to enhance automated driving models and traffic management strategies, ultimately improving system-level safety and efficiency.
 
-This site is under construction. Please check back later for more updates.
 
 {style="text-align: justify;"}
