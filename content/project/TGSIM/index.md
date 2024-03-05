@@ -31,25 +31,33 @@ url_video: ''
 # slides: example
 ---
 
-This study collected and processed accurate trajectory datasets capable of characterizing human-automated vehicle interactions under a diverse set of scenarios in diverse highway and city environments. Multiple methods were utilized to collect data: 
+## Project Overview
 
-* Fixed location aerial videography (a helicopter hovers over a segment of interest); 
-* Moving aerial videography (a helicopter follows the automated vehicles as they navigate a longer roadway segment);
-* Infrastructure-based videography (multiple overlapping cameras located on overpasses and buildings creating a comprehensive image of the study area). 
+The Third Generation SIMulation Data (TGSIM) project is a three-year research effort funded by the U.S. Department of Transportation (USDOT) to develop a comprehensive understanding of the impacts of automated driving systems on human behavior. The project is a led by [Dr. Alireza Talebpour (UIUC)](https://cee.illinois.edu/directory/profile/ataleb), [Dr. Hani Mahmassani (Northwestern)](https://transportation.northwestern.edu/people/director/mahmassani-hani/) and [Dr. Samer Hamdar (GWU)](https://engineering.gwu.edu/samer-hamdar).
 
-Utilizing the fixed location aerial videography approach, trajectories were extracted on I–90/I–94 in Chicago, IL. The moving aerial videography approach was adopted to extract four datasets on I–90/I–94 and I–294 in Chicago, IL. Finally, the infrastructure-based videography approach was utilized to collect data on I–395 in Washington D.C. and on the George Washington University campus (located in the Foggy Bottom Neighborhood). 
+The project aims to collect and process accurate trajectory datasets capable of characterizing human-automated vehicle interactions under a diverse set of scenarios in diverse highway and city environments. The datasets will be used to develop and validate traffic flow models that account for the impacts of automated driving systems on traffic flow. At the forefront of this project, I served as the **leading graduate research assistant**, playing a crucial role in developing a comprehensive data extraction pipeline that stands as a testament to our innovative approach to understanding the future of mobility. 
 
-Extracting multiple vehicle trajectories from video data raises a set of methodological and practical challenges that vary across the three data measurement approaches. The methodological steps to extract these trajectories are 
+## Data Collecting Methodologies
 
-* Preprocessing
-  * Raw Image Extraction: Every video recording is converted to a sequence of images (i.e., frames) separated at a constant rate over time (e.g., 10 fps). 
-  * Reference Image Gereration: This study developed a consistent methodology to convert each image into a fixed coordinate system (i.e., reference image).
-* Object Detection : This study used a deep learning-based object detection method, RetinaNet, to identify vehicles in each frame.
-* Object Tracking: This study used a centroid tracking algorithm to link the detected vehicles across frames to form vehicle trajectories.
-* Image Stabilization
-* Trajectory construction
+Multiple methods were utilized to ensure comprehensive coverage of our study areas:
 
-The extracted trajectory datasets are used to develop a comprehensive understanding of the impacts of automated driving systems on human behavior. The datasets can also be used to develop and validate traffic flow models that account for the impacts of automated driving systems on traffic flow. 
+* **Fixed location aerial videography:** a helicopter hovers over a segment of interest.
+* **Moving aerial videography:** a helicopter tracks the automated vehicles as they navigate a longer roadway segment.
+* **Infrastructure-based videography:** multiple overlapping cameras located on overpasses and buildings creating a comprehensive image of the study area. 
 
-This data processing pipline extracted over 11K+
-vehicle-kilometers of high-fidelity trajectory data from 14 hours of video. The data will be available for download and use by the research community by June 2024 from USDOT data portal.
+## Data Processing Pipeline
+
+Extracting multiple vehicle trajectories from video data raises a set of methodological and practical challenges that vary across the three data collection approaches. The pipeline developed for this project includes the following steps: 
+
+* **Preprocessing:**
+  * **Raw Image Extraction:** Converting the vedio into a sequence of frames separated at 30 fps over time.
+  * **Reference Image Gereration:** Developing a consistent methodology to convert each image into a fixed coordinate system (i.e., reference image).
+* **Object Detection:** Leveraging RetinaNet and YOLOv5 for precise vehicle identification within each frame.
+* **Object Tracking:** Performing a centroid tracking algorithm to trace vehicle trajectories through consecutive frames.
+* **Image Stabilization**
+* **Trajectory construction**
+
+## Impact and Contribution
+This data collection and processing approach enabled us to extract more than 11,000 vehicle-kilometers of high-fidelity trajectory data from 14 hours of video footage. My contributions not only facilitated the development of a data processing pipeline that is of precision but also paved the way for a deeper understanding of automated driving systems' impact on traffic flow and human behaviors. 
+
+The datasets, poised to be released to the research community by June 2024 through the USDOT data portal.
