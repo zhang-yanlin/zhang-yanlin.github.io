@@ -175,6 +175,8 @@ sections:
           tag: Trajecotry Data
         - name: Modeling
           tag: Traffic Flow Modeling
+        - name: AV
+          tag: Automated Driving Systems
         # - name: Other
         #   tag: Demo
     design:
