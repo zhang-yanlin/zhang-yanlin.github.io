@@ -1,5 +1,5 @@
 ---
-title: Third Generation SIMulation Data (TGSIM)
+title: The Third Generation SIMulation Data (TGSIM)
 summary: A Closer Look at the Impacts of Automated Driving Systems on Human Behavior.
 tags:
   - Trajecotry Data
@@ -10,7 +10,7 @@ date: '2023-12-31T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Real-world trajectory collected from a hovering helicopter on Chicago highway
+  caption: Data collection from a hovering helicopter on Chicago highway
   focal_point: Smart
 
 # links:
@@ -46,7 +46,10 @@ Multiple methods were utilized to ensure comprehensive coverage of our study are
 * **Infrastructure-based videography:** multiple overlapping cameras located on overpasses and buildings creating a comprehensive image of the study area. 
 
 ## Data Processing Pipeline
-
+<figure>
+  <img src="trajectory.png" width="80%" alt="Trajectory Illustration"/>
+  <figcaption>A sample of the extracted trajectories.</figcaption>
+</figure>
 Extracting multiple vehicle trajectories from video data raises a set of methodological and practical challenges that vary across the three data collection approaches. The pipeline developed for this project includes the following steps: 
 
 * **Preprocessing:**
