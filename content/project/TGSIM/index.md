@@ -1,6 +1,6 @@
 ---
 title: The Third Generation SIMulation Data (TGSIM)
-summary: A Closer Look at the Impacts of Automated Driving Systems on Human Behavior.
+summary:  A unique dataset providing accurate L0 to L3 trajectory data, enabling an in-depth exploration of the effects of automated driving systems on human behavior.
 tags:
   - Trajecotry Data
   - Traffic Flow Modeling

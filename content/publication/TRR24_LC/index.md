@@ -49,7 +49,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'uploads/TRB2024_TGSIM_LC_Yanlin.pdf'
 url_source: ''
 url_video: ''
 

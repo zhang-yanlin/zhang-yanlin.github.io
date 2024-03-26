@@ -1,6 +1,6 @@
 ---
 title: Automated Vehicles for All (AVA) 
-summary: A Closer Look at the Impacts of Automated Driving Systems on Human Behavior.
+summary: A systematic and scalable approach to the safe integration of cooperative automated vehicles (CAVs) into the nation’s transportation system. 
 tags:
   - Automated Driving Systems
   - Safety Testing

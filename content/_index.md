@@ -154,6 +154,26 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
+  - block: markdown
+    id: news
+    content:
+      title: News
+      subtitle: ''
+      text: |-
+        * [ Feb. 2024 ] I was invited by [ITE@UIUC](https://www.linkedin.com/company/ite-uiuc/) to join a panel on automated driving systems with [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) and the [ILLINI EV Concept team](https://evconcept.engr.illinois.edu/), discussing the future of mobility.
+        * [ Jan. 2024 ] [Four of our reasearch papers](https://www.linkedin.com/feed/update/urn:li:activity:7149872621776482304/) foucing on L0 to L4 trajectory data collected with moving helicopters have been selected for presentation at *the 2024 TRB Annual Meeting*. 
+        * [ Aug. 2023 ] Our paper [Characterizing Human–Automated Vehicle Interactions: An Investigation into Car-Following Behavior](https://journals.sagepub.com/doi/10.1177/03611981231192999) has been published by *Transportation Research Record*.
+        * [ Jul. 2023 ] I presented our work on the Impacts of Automated Vehicles on Mixed-autonomy Traffic Flow at *the Traffic Flow Theory and Characteristics Committee (ACP50) Summer Meeting*. 
+        * [ Mar. 2023 ] I presented our work on bahavioral modelling of human drivers in mixed traffic flow at *the 109th Illinois Transportation and Highway Engineering (T.H.E.) Conference*.
+        * [ Feb. 2023 ] I am honored to have been chosen as the recipient of the Charles E.DeLeuw Scholarship by the CEE Department at UIUC. I extend my deepest gratitude for this recognition!
+        * [ Jan. 2023 ] I presented our work on [human behavioral change in the era of automated driving](uploads/Yanlin_Zhang_TRB2023.pdf) and participated in a panel on behavioral insights of CAVs in traffic flow, alongside with [Dr. Alireza Talebpour](https://cee.illinois.edu/directory/profile/ataleb), [Dr. Konstantinos Mattas](https://scholar.google.com/citations?user=5ZEIWygAAAAJ&hl=en&oi=ao) and [Dr. Di Yang](https://www.morgan.edu/transportation-and-urban-infrastructure-studies/faculty-and-staff/dr-di-yang) at *the 2023 TRB Annual Meeting*.
+        * [ Oct. 2022 ] I presented our work on "Characterizing human-automated vehicle interactions: Safety Implications on Mixed Autonomy Traffic" at *the 71st Annual Illinois Transportation Engineering and Safety Conference*.
+        * [ Oct. 2022 ] I presented our work on "Modeling the Impacts of Automated Vehicles on Mixed-autonomy Traffic Flow" at *the 2022 INFORMS Annual Meeting*.
+
+
+    # design:
+    #   columns: '1'
+    #   view: list
   - block: portfolio
     id: projects
     content:
