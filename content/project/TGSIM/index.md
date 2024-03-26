@@ -10,7 +10,7 @@ date: '2023-12-31T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Data collection from a hovering helicopter on Chicago highway
+  caption: Data collection from a moving helicopter on Chicago highway
   focal_point: Smart
 
 # links:
