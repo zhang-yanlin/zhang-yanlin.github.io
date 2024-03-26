@@ -10,7 +10,7 @@ date: '2023-11-16T00:00:00Z'
 external_link: ''
 
 image:
-  caption: real-time road segmentation using LiDAR data
+  caption: An exampel of data extraction pipeline
   focal_point: Smart
 
 # links:
@@ -39,13 +39,13 @@ Aiming to enhance the safety and efficiency of automated driving systems in rura
 
 ## My contribution
 <figure>
-  <img src="AVA-data-analysis.gif" width="100%" alt="Trajectory Illustration"/>
-  <figcaption>An example of road testing.</figcaption>
+  <img src="real-time-point-cloud-seg.gif" width="80%" alt="Trajectory Illustration"/>
+  <figcaption>Real-time LiDAR point cloud segmentation</figcaption>
 </figure>
 
-1. **[Real-time road segmentation using LiDAR data](https://github.com/ava-share/sphereformer-ros):** I undertook the evaluation of various deep learning models, ultimately integrating the [SphereFormer](https://github.com/dvlab-research/SphereFormer) model with ROS to facilitate real-time road segmentation utilizing LiDAR data. This application was rigorously tested in a live environment with an automated vehicle, showcasing the potential for enhanced navigational safety.
+1. **Real-time road segmentation using LiDAR data [(code)](https://github.com/ava-share/sphereformer-ros):** I undertook the evaluation of various deep learning models, ultimately integrating the [SphereFormer](https://github.com/dvlab-research/SphereFormer) model with ROS to facilitate real-time road segmentation utilizing LiDAR data. This application was rigorously tested in a live environment with an automated vehicle, showcasing the potential for enhanced navigational safety.
 
-2. **[Comprehensive Data Extraction Pipeline](https://github.com/ava-share/Data_extraction):** I designed and implemented a comprehensive data extraction pipeline that invinvorporates camera-based detection, 2D-to-3D data fusion, and object tracking to generate a detailed dataset for the analysis of automated vehicle safety and the formulation of regulatory standards.
+2. **Comprehensive Data Extraction Pipeline [(code)](https://github.com/ava-share/Data_extraction):** I designed and implemented a comprehensive data extraction pipeline that invinvorporates camera-based detection, 2D-to-3D data fusion, and object tracking to generate a detailed dataset for the analysis of automated vehicle safety and the formulation of regulatory standards.
 
 
 3. **Implementation of control algorithm and Satety Testing:** I conducted safety testing on the control and acturation systems of automated vehicles for rural environments in Rantoul, IL.
