@@ -160,6 +160,7 @@ sections:
       title: News
       subtitle: ''
       text: |-
+        * [ May 2024 ] I passed my preliminary examination and advanced to candidacy for the Ph.D. degree. Thank you to my wonderful advisor [Dr. Alireza Talebpour](https://cee.illinois.edu/directory/profile/ataleb), and my distinguished committee members [Dr. Hani Mahmassani](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/mahmassani-hani.html), [Dr. Yanfeng Ouyang](https://cee.illinois.edu/directory/profile/yfouyang), and [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) for the unwavering support!
         * [ Feb. 2024 ] I was invited by [ITE@UIUC](https://www.linkedin.com/company/ite-uiuc/) to join a panel on automated driving systems with [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) and the [ILLINI EV Concept team](https://evconcept.engr.illinois.edu/), discussing the future of mobility.
         * [ Jan. 2024 ] [Four of our reasearch papers](https://www.linkedin.com/feed/update/urn:li:activity:7149872621776482304/) foucing on L0 to L4 trajectory data collected with moving helicopters have been selected for presentation at *the 2024 TRB Annual Meeting*. 
         * [ Aug. 2023 ] Our paper [Characterizing Human–Automated Vehicle Interactions: An Investigation into Car-Following Behavior](https://journals.sagepub.com/doi/10.1177/03611981231192999) has been published by *Transportation Research Record*.

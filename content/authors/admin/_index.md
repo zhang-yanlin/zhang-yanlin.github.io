@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Graduate Research Assistant
+role: Ph.D. Candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -100,8 +100,8 @@ social:
   #   label: Follow me on Twitter
   #   display:
   #     header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=qhO_nfcAAAAJ&hl=en&oi=sra
   # - icon: github
   #   icon_pack: fab
