@@ -1,3 +1,8 @@
+baseURL = "https://yanlinzhang-tech.github.io/"
+
+[pagination]
+  pagerSize = 10
+
 [services]
   [services.googleAnalytics]
     id = ""
