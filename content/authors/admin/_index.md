@@ -36,9 +36,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in Transportation Engineering / Computational Science and Engineering
+    - course: Ph.D. in Transportation Engineering & Computational Science and Engineering
       institution: University of Illinois, Urbana-Champaign
-      year: Expected 2025
+      year: Expected 2026
     - course: M.Sc. in Transportation System Analysis and Planning
       institution: Northwestern University
       year: 2021
@@ -114,7 +114,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/Yanlin_Zhang_CV_Feb2024.pdf
+    link: uploads/Zhang_Yanlin_CV_Sep2025.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
