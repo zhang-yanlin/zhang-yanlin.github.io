@@ -33,7 +33,7 @@ url_video: ''
 
 ## Project Overview
 
-The Third Generation SIMulation Data (TGSIM) project is a three-year research effort funded by the U.S. Department of Transportation (USDOT) to develop a comprehensive understanding of the impacts of automated driving systems on human behavior. The project is a led by [Dr. Alireza Talebpour (UIUC)](https://cee.illinois.edu/directory/profile/ataleb), [Dr. Hani Mahmassani (Northwestern)](https://transportation.northwestern.edu/people/director/mahmassani-hani/) and [Dr. Samer Hamdar (GWU)](https://engineering.gwu.edu/samer-hamdar).
+The Third Generation SIMulation Data (TGSIM) project is a three-year research effort funded by the U.S. Department of Transportation (USDOT) to develop a comprehensive understanding of the impacts of automated driving systems on human behavior. The project is a led by [Dr. Alireza Talebpour (UIUC)](https://cee.illinois.edu/directory/profile/ataleb), [Dr. Hani Mahmassani (Northwestern)](https://en.wikipedia.org/wiki/Hani_Mahmassani) and [Dr. Samer Hamdar (GWU)](https://engineering.gwu.edu/samer-hamdar).
 
 The project aims to collect and process accurate trajectory datasets capable of characterizing human-automated vehicle interactions under a diverse set of scenarios in diverse highway and city environments. The datasets will be used to develop and validate traffic flow models that account for the impacts of automated driving systems on traffic flow. At the forefront of this project, I served as the **leading graduate research assistant**, playing a crucial role in developing a comprehensive data extraction pipeline that stands as a testament to our innovative approach to understanding the future of mobility. 
 
