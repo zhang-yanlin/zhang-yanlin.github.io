@@ -160,16 +160,53 @@ sections:
       title: News
       subtitle: ''
       text: |-
-        * [ May 2024 ] I passed my preliminary examination and advanced to candidacy for the Ph.D. degree. Thank you to my wonderful advisor [Dr. Alireza Talebpour](https://cee.illinois.edu/directory/profile/ataleb), and my distinguished committee members [Dr. Hani Mahmassani](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/mahmassani-hani.html), [Dr. Yanfeng Ouyang](https://cee.illinois.edu/directory/profile/yfouyang), and [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) for the unwavering support!
+        * [ Apr. 2025 ] Our paper on the [discretionary lane-changing decisions analysis using the Third Generation Simulation (TGSIM) dataset](https://journals.sagepub.com/doi/10.1177/03611981251318329) has been published by *Transportation Research Record*.
+        * [ Jan. 2025 ] Our paper on the [data collection and trajectory extraction of the Third Generation Simulation (TGSIM) dataset](https://journals.sagepub.com/doi/10.1177/03611981241257257) has been published by *Transportation Research Record*.
+        * [ Jan. 2025 ] Two of our research papers on interaction dynamics of human and highly automated vehicles and traffic jam dynamics have been selected for presentation at *the 2025 TRB Annual Meeting*.
+        * [ Sep. 2024 ] Our work on using the TGSIM dataset to study complex traffic flow dynamics won [the best poster award at the Next-Generation Transport Systems Conference (NGTS-4)](https://nextranspurdue.wixsite.com/ngts2024/awards).
+        * [ May 2024 ] I passed my preliminary examination and advanced to candidacy for the Ph.D. degree. My greatest gratitude goes to my wonderful advisor [Dr. Alireza Talebpour](https://cee.illinois.edu/directory/profile/ataleb), and my distinguished committee members [Dr. Hani Mahmassani](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/mahmassani-hani.html), [Dr. Yanfeng Ouyang](https://cee.illinois.edu/directory/profile/yfouyang), and [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) for the unwavering support!
+
+        <div id="more-news" class="more-news-hidden">
+
         * [ Feb. 2024 ] I was invited by [ITE@UIUC](https://www.linkedin.com/company/ite-uiuc/) to join a panel on automated driving systems with [Dr. David Forsyth](https://cs.illinois.edu/about/people/faculty/daf) and the [ILLINI EV Concept team](https://evconcept.engr.illinois.edu/), discussing the future of mobility.
         * [ Jan. 2024 ] [Four of our reasearch papers](https://www.linkedin.com/feed/update/urn:li:activity:7149872621776482304/) foucing on L0 to L4 trajectory data collected with moving helicopters have been selected for presentation at *the 2024 TRB Annual Meeting*. 
         * [ Aug. 2023 ] Our paper [Characterizing Human–Automated Vehicle Interactions: An Investigation into Car-Following Behavior](https://journals.sagepub.com/doi/10.1177/03611981231192999) has been published by *Transportation Research Record*.
-        * [ Jul. 2023 ] I presented our work on the Impacts of Automated Vehicles on Mixed-autonomy Traffic Flow at *the Traffic Flow Theory and Characteristics Committee (ACP50) Summer Meeting*. 
+        * [ Jul. 2023 ] I presented our work on the Impacts of Automated Vehicles on Mixed-autonomy Traffic Flow at *the Traffic Flow Theory and Characteristics Committee (ACP50) Summer Meeting*.         
         * [ Mar. 2023 ] I presented our work on bahavioral modelling of human drivers in mixed traffic flow at *the 109th Illinois Transportation and Highway Engineering (T.H.E.) Conference*.
         * [ Feb. 2023 ] I am honored to have been chosen as the recipient of the Charles E.DeLeuw Scholarship by the CEE Department at UIUC. I extend my deepest gratitude for this recognition!
         * [ Jan. 2023 ] I presented our work on [human behavioral change in the era of automated driving](uploads/Yanlin_Zhang_TRB2023.pdf) and participated in a panel on behavioral insights of CAVs in traffic flow, alongside with [Dr. Alireza Talebpour](https://cee.illinois.edu/directory/profile/ataleb), [Dr. Konstantinos Mattas](https://scholar.google.com/citations?user=5ZEIWygAAAAJ&hl=en&oi=ao) and [Dr. Di Yang](https://www.morgan.edu/transportation-and-urban-infrastructure-studies/faculty-and-staff/dr-di-yang) at *the 2023 TRB Annual Meeting*.
         * [ Oct. 2022 ] I presented our work on "Characterizing human-automated vehicle interactions: Safety Implications on Mixed Autonomy Traffic" at *the 71st Annual Illinois Transportation Engineering and Safety Conference*.
         * [ Oct. 2022 ] I presented our work on "Modeling the Impacts of Automated Vehicles on Mixed-autonomy Traffic Flow" at *the 2022 INFORMS Annual Meeting*.
+        
+        </div>
+        
+        <button onclick="toggleMoreNews()" id="more-news-btn" style="background-color: #1976d2; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; margin-top: 10px;">Show More</button>
+        
+        <style>
+        .more-news-hidden {
+          display: none;
+        }
+        .more-news-visible {
+          display: block;
+        }
+        </style>
+        
+        <script>
+        function toggleMoreNews() {
+          var moreNews = document.getElementById('more-news');
+          var btn = document.getElementById('more-news-btn');
+          
+          if (moreNews.classList.contains('more-news-hidden')) {
+            moreNews.classList.remove('more-news-hidden');
+            moreNews.classList.add('more-news-visible');
+            btn.innerHTML = 'Show Less';
+          } else {
+            moreNews.classList.remove('more-news-visible');
+            moreNews.classList.add('more-news-hidden');
+            btn.innerHTML = 'Show More';
+          }
+        }
+        </script>
 
 
     # design:
@@ -268,7 +305,7 @@ sections:
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: 205 North Mathews Ave.
+        street: B106 Newmark Civil Engineering Laboratory, 205 North Mathews Ave.
         city: Urbana
         region: IL
         postcode: '61801'
