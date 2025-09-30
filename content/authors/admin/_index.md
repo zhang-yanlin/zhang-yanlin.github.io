@@ -29,8 +29,9 @@ bio: My research interests lies in the intersection of behavioral science and mi
 
 # Interests to show in About widget
 interests:
+  _ Artificial Intelligence in Transportation
+  _ Connected and Automated Vehicles
   - Behavioral Science in Mixed Autonomy Traffic
-  - Automated Transportation System Testing
   - Traffic Flow Theory
 
 # Education to show in About widget
